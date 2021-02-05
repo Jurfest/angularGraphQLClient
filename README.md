@@ -31,6 +31,7 @@ This project was developed with the following technologies:
 -  [TypeScript](https://www.typescriptlang.org)
 -  [JavaScript](https://www.javascript.com)
 -  [HTML](https://www.w3.org)
+-  [SCSS](https://sass-lang.com)
 -  [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 -  [GraphQL](https://graphql.org)
 
@@ -81,9 +82,9 @@ Inside the browser:
     <img alt="" src="./src/assets/img/products.png" width="940px"/>
 </h1> -->
 
-### Acknowledgment
+<!-- ### Acknowledgment
 
-This project is my result after completing the free, online and certified course provided by [CODER](https://www.cod3r.com.br/courses/angular-9-essencial).
+This project is my result after completing the free, online and certified course provided by [CODER](https://www.cod3r.com.br/courses/angular-9-essencial). -->
 
 ### :page_facing_up: License
 
