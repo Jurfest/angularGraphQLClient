@@ -39,10 +39,10 @@ This project was developed with the following technologies:
 Clone the repository and install the dependencies.
 ```bash
 # to clone the repository
-$ git clone https://github.com/Jurfest/angularGraphQLCliente.git
+$ git clone https://github.com/Jurfest/angularGraphQLClient.git
 
 # go into the folder
-$ cd angularGraphQLCliente
+$ cd angularGraphQLClient
 
 #install dependencies
 $ npm install
