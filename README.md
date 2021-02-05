@@ -94,7 +94,7 @@ This project is under the MIT license.
 
 [LinkedIn](https://www.linkedin.com/in/diegojurfest/)
 
-### Frontend aditional information
+# Frontend aditional information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
