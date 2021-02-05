@@ -82,9 +82,11 @@ Inside the browser:
     <img alt="" src="./src/assets/img/products.png" width="940px"/>
 </h1> -->
 
-<!-- ### Acknowledgment
+### Acknowledgment
 
-This project is my result after completing the free, online and certified course provided by [CODER](https://www.cod3r.com.br/courses/angular-9-essencial). -->
+-  [Adding bootstrap 5 to angular 11](https://www.youtube.com/watch?v=wzczotQvmOY)
+
+<!-- This project is my result after completing the free, online and certified course provided by [CODER](https://www.cod3r.com.br/courses/angular-9-essencial). -->
 
 ### :page_facing_up: License
 
