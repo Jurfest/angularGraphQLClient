@@ -124,7 +124,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Backend aditional information
 
-Backend is not included in this repository (GraphQL Server).
+Backend is not included in this repository (custom GraphQL Server).
 
 
 ### Thats it ! :wave:
