@@ -8,10 +8,10 @@
 </h4>
 
 <p align="center">
-<img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/Jurfest/angularGraphQLCliente">
+<img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/Jurfest/angularGraphQLClient">
 <img alt="Made by Jurfest" src="https://img.shields.io/badge/made%20by-Jurfest-%20">
-<img alt="Project top programing language" src="https://img.shields.io/github/languages/top/Jurfest/angularGraphQLCliente">
-<img alt="GitHub license" src="https://img.shields.io/github/license/Jurfest/angularGraphQLCliente">
+<img alt="Project top programing language" src="https://img.shields.io/github/languages/top/Jurfest/angularGraphQLClient">
+<img alt="GitHub license" src="https://img.shields.io/github/license/Jurfest/angularGraphQLClient">
 </p> 
 
 
