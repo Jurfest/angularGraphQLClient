@@ -31,6 +31,7 @@ This project was developed with the following technologies:
 -  [TypeScript](https://www.typescriptlang.org)
 -  [JavaScript](https://www.javascript.com)
 -  [HTML](https://www.w3.org)
+-  [Bootstrap 5](https://getbootstrap.com)
 -  [SCSS](https://sass-lang.com)
 -  [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 -  [GraphQL](https://graphql.org)
@@ -84,7 +85,7 @@ Inside the browser:
 
 ### Acknowledgment
 
--  [Adding bootstrap 5 to angular 11](https://www.youtube.com/watch?v=wzczotQvmOY)
+-  [Adding bootstrap to angular](https://www.youtube.com/watch?v=peWW7_O-XqM)
 
 <!-- This project is my result after completing the free, online and certified course provided by [CODER](https://www.cod3r.com.br/courses/angular-9-essencial). -->
 
