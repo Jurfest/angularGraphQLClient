@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { TabsComponent } from './components/authentication/tabs/tabs.component';
+import { TabsComponentProfile } from './components/profile/tabs/tabs.component';
+import { TabsComponentUser } from './components/user/tabs/tabs.component';
 import { LoginComponent } from './components/authentication/login/login.component';
 import { RegisterComponent } from './components/authentication/register/register.component';
 import { LoggedInUserComponent } from './components/authentication/logged-in-user/logged-in-user.component';
@@ -21,6 +23,8 @@ import { ContentComponent } from './content/content.component';
   declarations: [
     AppComponent,
     TabsComponent,
+    TabsComponentProfile,
+    TabsComponentUser,
     LoginComponent,
     RegisterComponent,
     LoggedInUserComponent,
