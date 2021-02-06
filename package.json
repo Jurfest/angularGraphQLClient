@@ -20,7 +20,6 @@
     "@angular/platform-browser-dynamic": "~11.1.2",
     "@angular/router": "~11.1.2",
     "@apollo/client": "^3.0.0",
-    "@popperjs/core": "^2.6.0",
     "apollo-angular": "^2.2.0",
     "bootstrap": "^5.0.0-beta1",
     "graphql": "^15.0.0",
