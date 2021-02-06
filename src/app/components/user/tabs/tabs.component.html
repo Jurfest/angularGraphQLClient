@@ -2,25 +2,53 @@
   <div class="container-fluid main-tab">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="pills-list-user-tab" data-bs-toggle="pill" href="#pills-list-user" role="tab"
+        <a class="nav-link active" id="pills-listU-tab" data-bs-toggle="pill" href="#pills-listU" role="tab"
           aria-controls="pills-list" aria-selected="true">{{ "Lista" | uppercase }}</a>
       </li>
       <li class="nav-item" role="query">
-        <a class="nav-link" id="pills-query-user-tab" data-bs-toggle="pill" href="#pills-query-user" role="tab"
+        <a class="nav-link" id="pills-queryU-tab" data-bs-toggle="pill" href="#pills-queryU" role="tab"
           aria-controls="pills-query-user" aria-selected="false">{{ "Consulta" | uppercase }}</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-new-user-tab" data-bs-toggle="pill" href="#pills-new-user" role="tab"
+        <a class="nav-link" id="pills-newU-tab" data-bs-toggle="pill" href="#pills-newU" role="tab"
           aria-controls="pills-new" aria-selected="false">{{ "Novo" | uppercase }}</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-update-user-tab" data-bs-toggle="pill" href="#pills-update-user" role="tab"
+        <a class="nav-link" id="pills-updateU-tab" data-bs-toggle="pill" href="#pills-updateU" role="tab"
           aria-controls="pills-update-user" aria-selected="false">{{ "Alterar" | uppercase }}</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-delete-user-tab" data-bs-toggle="pill" href="#pills-delete-user" role="tab"
+        <a class="nav-link" id="pills-deleteU-tab" data-bs-toggle="pill" href="#pills-deleteU" role="tab"
           aria-controls="pills-delete-user" aria-selected="false">{{ "Excluir" | uppercase }}</a>
       </li>
     </ul>
   </div>
 </nav>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-listU" role="tabpanel" aria-labelledby="pills-listU-tab">
+    <ng-container>
+      <app-list-user></app-list-user>
+    </ng-container>
+  </div>
+  <div class="tab-pane fade" id="pills-queryU" role="tabpanel" aria-labelledby="pills-queryU-tab">
+    <ng-container>
+      <!-- <app-list-user></app-list-user> -->
+    </ng-container>
+  </div>
+  <div class="tab-pane fade" id="pills-newU" role="tabpanel" aria-labelledby="pills-newU-tab">
+    <ng-container>
+      <!-- <app-list-user></app-list-user> -->
+    </ng-container>
+  </div>
+  <div class="tab-pane fade" id="pills-updateU" role="tabpanel" aria-labelledby="pills-updateU-tab">
+    <ng-container>
+      <!-- <app-list-user></app-list-user> -->
+    </ng-container>
+  </div>
+  <div class="tab-pane fade" id="pills-deleteU" role="tabpanel" aria-labelledby="pills-deleteU-tab">
+    <ng-container>
+      <!-- <app-list-user></app-list-user> -->
+    </ng-container>
+  </div>
+</div>
