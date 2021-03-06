@@ -1,1 +1,8 @@
-<p>new works!</p>
+<div class="container">
+  <div class="buttons my-5">
+    <button class="btn btn-primary" type="button" (click)="getProfiles()" [disabled]="isLoadingProfiles">
+      <span *ngIf="isLoadingProfiles" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      <span> Obter Perfis</span>
+    </button>
+  </div>
+</div>

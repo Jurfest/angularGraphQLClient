@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GraphQLModule } from './graphql.module';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TabsComponent } from './components/authentication/tabs/tabs.component';
 import { TabsComponentProfile } from './components/profile/tabs/tabs.component';
 import { TabsComponentUser } from './components/user/tabs/tabs.component';
@@ -18,6 +18,9 @@ import { DeleteComponent } from './components/user/delete/delete.component';
 import { ListComponent } from './components/user/list/list.component';
 import { NewComponent } from './components/user/new/new.component';
 import { ContentComponent } from './content/content.component';
+import { AuthInterceptor } from './core/auth.interceptor';
+import { LoaderService } from './services/loader.service';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,8 @@ import { ContentComponent } from './content/content.component';
     DeleteComponent,
     ListComponent,
     NewComponent,
-    ContentComponent
+    ContentComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +46,14 @@ import { ContentComponent } from './content/content.component';
     GraphQLModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    },
+    LoaderService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
